@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background: url("https://picsum.photos/1600/900?random=1");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2 );
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 50px 70px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.input-container {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 30px 0;
+    
+}
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2 );
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 20px 45px 20px 20px;
+}
+.input-container input::placeholder {
+    color: #ffffff;
+}
+.input-container img {
+    position: absolute;
+    right: 24px;
+    margin-top: 5px;
+    top: 20%;
+}
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.input-container a:hover {
+    text-decoration: underline;
+}
+.submit-button {
+   width: 100%;
+   height: 50px;
+   background-color: rgb(162, 0, 255); 
+   border: none;
+   border-radius: 10px;
+   color: #ffffff;
+   font-weight: 700;
+   margin-top: 24px;
+   cursor: pointer;
+   outline: none;
+   font-size: 16px;
+}
+.submit-button:hover {
+    background-color: rgb(225, 0, 255);
+}
+.tex-link p a {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.tex-link p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+.tex-link p a:hover {
+    text-decoration: underline;
+
+}
+.tex-link {
+    text-align: center;
+    margin: 20px;
+}
